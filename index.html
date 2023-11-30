@@ -13,81 +13,64 @@
     <section id="welcome">
         <header>
             <nav>
-                <ul>
+                <ul class="buttons">
                     <li>
-                        <a href="#welcome">Home</a>
+                        <button><a href="#welcome">Home</a></button>
                     </li>
                     <li>
-                        <a href="#contact">Contacts</a>
+                        <button><a href="#projects-paragraph">Projects</a></button>
                     </li>
                     <li>
-                        <a href="#projects">Projects</a>
+                        <button><a href="#contacticons">Contacts</a></button>
                     </li>
                 </ul>
             </nav>
-
-
-
-            <h1>Hello, I am Ronald Kagulire</h1>
-            <div id="paragraph">
-                <P>Front End Developer</P>
-            </div>
-            <div>
-                <img src="./Code Profile.jpg" height="200mm" class="photo" />
+            <div class="intro">
+                <h1 id="hello">Hello, I am Ronald Kagulire</h1>
+                <aside class="center-image">
+                    <img src="./Code Profile.jpg" height="200mm" class="photo" alt="Profile Photo" />
+                </aside>
+                <p>Front End Developer</p>
             </div>
         </header>
     </section>
-
+    <h3 id="projects-paragraph">BELOW ARE MY PREVIOUS PROJECTS</h3>
     <section>
-        <h3>BELOW ARE MY PREVIOUS PROJECTS</h3>
-        <div class="tiles">
+        <div class="projects">
             <div class="tile">
-                <h2>My blog on Medium</h2>
-                <p>This was my first write-up</p>
-                <img class="Screenshot" src="./Blog Screenshot 2023-09-23.png" alt="this a screenshot">
-                <a href="https://medium.com/@rkagulire/my-software-engineering-journey-4825ea71107f"
-                    target="_blank">Read my blog here</a>
+                <h2>JS Challenges</h2>
+                <p>This project was my practice on JavaScript</p>
+                <img class="tilepic" src="./JS code.jpg" alt="JavaScript Code">
+                <a href="https://github.com/RLKagulire/JS-PRACTICECHALLENGES"
+                    target="_blank" class="link">Follow this link for details</a>
             </div>
             <div class="tile">
-                <h2>HTML Elements</h2>
-                <p>These include tags for Links and Navigation, multimedia elements, tables and so much more.</p>
-                <img class="semantic" src="./HTML Screenshot 2023-09-23.png" alt="this a screenshot">
-                <a href="https://youtu.be/tPjJzHzq-dY">Learn more about HTML Elements</a>
+                <h2>Calculator</h2>
+                <p>This project was my practice for HTML and CSS concepts</p>
+                <img class="tilepic" src="./iPhone Calculator Pic.png" alt="Calculator">
+                <a href="https://github.com/RLKagulire/iphone-Calculator" class="link">Find project details here</a>
             </div>
             <div class="tile">
-                <h2>CSS Box Model</h2>
-                <p>This is how to use the CSS Box model</p>
-                <img class="CSS" src="./CSS Screenshot 2023-09-23.png" alt="this a screenshot">
-                <a href="https://youtu.be/RtltFSnnkNo" target="_blank">Learn more about The CSS Box Model</a>
+                <h2>ToDo List App</h2>
+                <p>This was my assignment submission</p>
+                <img class="tilepic" src="./ToDo List.jpeg" alt="ToDo List">
+                <a href="https://youtu.be/RtltFSnnkNo" target="_blank" class="link">Find project details here</a>
             </div>
         </div>
-
-    </section>
-
-    <section>
-        <footer>
-            <section id="contact">
-                <div id="contact-title">
-                    <h1>Contact me</h1>
-                </div>
-                <div id="contacticons">
-                </div>
-            </section>
-            <footer class="contact">
-                <section id="contact">
-                    <div id="contacticons">    
-                        <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a>  
-                        <a href="https://twitter.com/i/flow/login?lang=en" class="fa fa-twitter"></a>
-                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                        <i class="fa fa-github" aria-hidden="true"></i>
-                        <i class="fa fa-whatsapp" aria-hidden="true"></i>
-                    
-                        <div>
-                            <h6>Copyright ©2023,Ronnie Kagulire</h6>
-                        </div>
-                </section>
-                    
-            </footer>
+        <section class="contact">
+            <div id="contact-title">
+                <h1>Contact me</h1>
+            </div>
+        </section>
+        <footer class="contact">
+            <div id="contacticons">
+                <a href="https://twitter.com/KagulireRo53432" class="fa fa-twitter"></a>
+                <a href="https://www.linkedin.com/in/ronnie-kagulire-78425886/" class="fa fa-linkedin-square" aria-hidden="true"></i>
+                <a href="https://github.com/RLKagulire" class="fa fa-github" aria-hidden="true"></a>
+                <a href="https://facebook.com/" class="fa fa-facebook"></a>
+            </div>
+            <h6 id="copyright">Copyright ©2023, Ronnie Kagulire</h6>
+        </footer>
     </section>
 
 </body>
